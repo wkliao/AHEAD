@@ -83,9 +83,10 @@
    * HACC CORAL benchmark: https://asc.llnl.gov/CORAL-benchmarks/
    * I/O: MPI-IO
 
- * EQSIM (LBNL) 
+ * EQSIM (Earthquake Simulation, LBNL) 
    * https://github.com/geodynamics/sw4
    * I/O: C++, POSIX I/O
+   * I/O: HDF5 under development [PR #41](https://github.com/geodynamics/sw4/pull/41)
 
  * Subsurface (LBNL)
    * anag-repo.lbl.gov
