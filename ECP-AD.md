@@ -39,65 +39,76 @@
 ### 6 Energy applications
  * ExaWind (Fluid Dynamics)
    * https://github.com/Exawind/nalu-wind
-   * I/O: NetCDF4/HDF5/PnetCDF
+   * I/O
+     * HDF5
+     * NetCDF4 (call PnetCDF)
 
- * Combustion-Pele
+ * Combustion-Pele (NREL)
    * git@code.ornl.gov:Pele/PeleC.git
    * I/O: HDF5
 
  * ExaSMR (Fluid Dynamics)
-   * component Shift: https://code-int.ornl.gov/exnihilo/exnihilo
-   * component OpenMC: https://github.com/mit-crpg/openmc
-   * component Nek5000: github.com/Nek5000
-   * I/O: HDF5 (Shift, OpenMC)
-   * I/O: ADIOS (optional for Shift)
+   * Shift (https://code-int.ornl.gov/exnihilo/exnihilo)
+     * I/O: HDF5, ADIOS (optional)
+   * OpenMC (https://github.com/mit-crpg/openmc)
+     * I/O: HDF5
+   * Nek5000 (github.com/Nek5000)
+     * I/O: POSIX
 
  * MFIX-Exa (Fluid Dynamics)
    * https://mfix.netl.doe.gov/gitlab/users/sign_in
-   * AMReX
+   * Dependency: AMReX
 
  * WDMApp (Fusion)
-   * GENE: gitlab.mpcdf.mpg.de
-   * XGC: bitbucket.org/madams/epsi
-   * I/O: ADIOS, HDF5
+   * GENE (gitlab.mpcdf.mpg.de)
+     * I/O: ADIOS, HDF5
+   * XGC (bitbucket.org/madams/epsi)
+     * I/O: ADIOS
 
  * WarpX (Particle Accelerators)
-   * WarpX: https://bitbucket.org/berkeleylab/warpx
-   * PICSAR: https://bitbucket.org/berkeleylab/picsar
-   * I/O: HDF5
+   * WarpX (https://bitbucket.org/berkeleylab/warpx)
+     * Dependency AMReX
+     * I/O: HDF5
+   * PICSAR (https://bitbucket.org/berkeleylab/picsar)
+     * I/O: MPI-IO, text pixr format
 
 ### 5 Earth and Space Sciences applications
- * ExaStar (LBNL)
-   * https://github.com/AMReX-Astro/Castro
-   * New development repo https://github.com/ECP-Astro/FLASH-subset
-   * Production code downloaded as tarball from
-   * http://flash.uchicago.edu/site/flashcode/download/
-   * I/O: multi-dimensional AMR checkpoint
-   * I/O: Tabular data
-   * I/O: HDF5
-   * I/O: BoxLib (homegrown format)
+ * ExaStar (Stellar Explosions, LBNL)
+   * Castro (https://github.com/AMReX-Astro/Castro)
+     * https://amrex-astro.github.io/Castro/docs/io.html
+     * BoxLib, FAB (MultiFAB)
+   * FLASH (https://github.com/ECP-Astro/FLASH-subset)
+     * Production code (http://flash.uchicago.edu/site/flashcode/download)
+     * HSF5, PnetCDF
+   * I/O options
+     * multi-dimensional AMR checkpoint
+     * Tabular data
+     * HDF5
+     * BoxLib (homegrown format)
 
- * EaxSky (Habib, ANL)
+ * EaxSky (Cosmology, Habib, ANL)
    * GenericIO Releases: http://trac.alcf.anl.gov/projects/genericio
+     * I/O: MPI-IO and POSIX I/O
    * Nyx repository: https://github.com/AMReX-Astro/Nyx
+     * C++ I/O, converter utility uses HDF5
    * HACC CORAL benchmark: https://asc.llnl.gov/CORAL-benchmarks/
-   * I/O: MPI-IO
+     * I/O: MPI-IO
 
- * EQSIM (Earthquake Simulation, LBNL) 
+ * EQSIM (Earthquake Simulation, LBNL)
    * https://github.com/geodynamics/sw4
    * I/O: C++, POSIX I/O
    * I/O: HDF5 under development [PR #41](https://github.com/geodynamics/sw4/pull/41)
 
- * Subsurface (LBNL)
-   * anag-repo.lbl.gov
-   * CHOMBO
+ * Subsurface (Coupled Flow, Transport, Reactions and Mechanics, LBNL)
+   * CHOMBO-Crunch (https://anag-repo.lbl.gov)
+   * GEO ?
    * I/O: HDF5
 
  * E3SM-MMF
    * https://github.com/E3SM-Project/E3SM
    * I/O: PIO, NetCDF4, PnetCDF, HDF5, ADIOS
 
-• 5 Data Analytics and Optimization applications
+### 5 Data Analytics and Optimization applications
  * Urban (Metropolitan Energy and Economic Dynamics)
    * https://github.com/NCAR/WRFV3
    * WRF: NetCDF4/HDF5/PnetCDF
