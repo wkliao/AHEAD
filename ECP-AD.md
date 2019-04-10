@@ -7,10 +7,31 @@
 
 ### 6 Chemistry and Materials applications
  * LatticeQCD (Nuclear, HEP)
-   * Chroma: https://github.com/JeffersonLab/chroma
-   * MILC: https://github.com/milc-qcd/milc_qcd
-   * Others see https://confluence.exascaleproject.org/display/ADSE03/LaticeQCD+Software+Specs
-   * I/O: HDF5
+   * Chroma (https://github.com/JeffersonLab/chroma)
+     * I/O: POSIX, HDF5
+   * QDP++ (https://github.com/usqcd-software/qdpxx)
+   * QDP-JIT (https://github.com/fwinter/qdp-jit)
+   * QMP (https://github.com/usqcd-software/qmp)
+   * QPhiX (https://github.com/jeffersonlab/qphix)
+   * QUDA (https://github.com/lattice/quda)
+
+   * MILC (https://github.com/milc-qcd/milc_qcd)
+     * I/O: MPI-IO, POSIX
+   * QLA (https://github.com/usqcd-software/qla)
+   * QIO (https://github.com/usqcd-software/qio)
+   * QMP (https://github.com/usqcd-software/qmp)
+   * QOPQDP (https://github.com/usqcd-software/qopqdp)
+   * QUDA (https://github.com/lattice/quda)
+   * QPHIX (https://github.com/JeffersonLab/milc-qphix)
+   * GRID (https://github.com/paboyle/Grid)
+
+   * CPS (https://github.com/RBC-UKQCD/CPS)
+     * I/O: POSIX
+   * GRID (https://github.com/paboyle/Grid)
+   * QIO (https://github.com/usqcd-software/qio)
+   * QMP (https://github.com/usqcd-software/qmp)
+   * QUDA (https://github.com/lattice/quda)
+
 
  * NWChemEx (Chemistry, Materials, PNNL)
    * https://github.com/NWChemEx-Project
@@ -110,28 +131,42 @@
 
 ### 5 Data Analytics and Optimization applications
  * Urban (Metropolitan Energy and Economic Dynamics)
-   * https://github.com/NCAR/WRFV3
-   * WRF: NetCDF4/HDF5/PnetCDF
-   * Nek500: none
+   * WRF (https://github.com/NCAR/WRFV3)
+     * I/O: NetCDF4/HDF5/PnetCDF
+   * Nek5000 (github.com/Nek5000)
+     * I/O: POSIX
+   * Other applications:
+     * EnergyPlus, TUMS, MOVES, chiSIM
 
- * ExaSGD (Grid Dynamics)
-   * https://github.com/Argonne-National-Laboratory/PIPS
-   * I/O: C++, POSIX
+ * ExaSGD (Stochastic Grid Dynamics)
+   * GridPACK (https://github.com/GridOPTICS/GridPACK)
+     * I/O: C++, POSIX
+   * PIPS (https://github.com/Argonne-National-Laboratory/PIPS)
+     * I/O: C++, POSIX
+   * StructJuMP (https://github.com/StructJuMP/StructJuMP.jl)
+     * Julia
+   * GOSS
 
  * CANDLE (Machine Learning)
    * https://github.com/ECP-Candle/
-   * I/O: python ?
+   * I/O: python (HDF5 python)
 
  * ExaBiome (Microorganisms)
-   * https://bitbucket.org/berkeleylab/hipmeraculous
-   * https://bitbucket.org/azadcse/hipmcl/
-   * I/O: POSIX, text
+   * MetaHipMer (https://bitbucket.org/berkeleylab/hipmeraculous)
+     * private repo
+   * HipMCL (https://bitbucket.org/azadcse/hipmcl/)
+     * I/O: POSIX, text
+   * GOTTCHA (https://github.com/LANL-Bioinformatics/GOTTCHA)
+     * Perl
 
  * ExaFEL (Electron Laser)
-   * PSANA: https://github.com/lcls-psana	
-   * CCTBX: http://cctbx.github.io
-   * LUNUS: https://github.com/mewall/lunus
-   * I/O: Python, HDF5
+   * PSANA (https://github.com/lcls-psana)
+     * Python (C++ ?)
+   * CCTBX (http://cctbx.github.io)
+     * I/O: Python, HDF5
+   * LUNUS (https://github.com/mewall/lunus)
+     * Python
+   * M-TIP
 
 ### 3 National Security applications
  *  ATDM-LANL
