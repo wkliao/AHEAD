@@ -5,8 +5,8 @@
  * A Proxy Application project
  * An Applications Assessment project
 
-### 6 Chemistry and Materials applications
- * 2.2.1.01 ADSE03-[LatticeQCD]](https://confluence.exascaleproject.org/display/ADSE03)
+### Six Chemistry and Materials applications
+ * 2.2.1.01 ADSE03-[LatticeQCD](https://confluence.exascaleproject.org/display/ADSE03) (Nuclear, HEP)
    * Chroma (https://github.com/JeffersonLab/chroma)
      * I/O: POSIX, HDF5
    * QDP++ (https://github.com/usqcd-software/qdpxx)
@@ -56,7 +56,7 @@
    * https://github.com/QMCPACK/qmcpack
    * I/O: HDF5
 
-### 6 Energy applications
+### Six Energy applications
  * 2.2.2.01 ADSE07-[ExaWind](https://confluence.exascaleproject.org/display/ADSE07) (Fluid Dynamics)
    * https://github.com/Exawind/nalu-wind
    * I/O
@@ -92,7 +92,7 @@
    * PICSAR (https://bitbucket.org/berkeleylab/picsar)
      * I/O: MPI-IO, text pixr format
 
-### 5 Earth and Space Sciences applications
+### Five Earth and Space Sciences applications
  * 2.2.3.01 ADSE18-[ExaStar](https://confluence.exascaleproject.org/display/ADSE18) (Stellar Explosions, LBNL)
    * Castro (https://github.com/AMReX-Astro/Castro)
      * https://amrex-astro.github.io/Castro/docs/io.html
@@ -128,7 +128,7 @@
    * https://github.com/E3SM-Project/E3SM
    * I/O: PIO, NetCDF4, PnetCDF, HDF5, ADIOS
 
-### 5 Data Analytics and Optimization applications
+### Five Data Analytics and Optimization applications
  * 2.2.4.01 ADSE17-[Urban](https://confluence.exascaleproject.org/display/ADSE17) (Metropolitan Energy and Economic Dynamics)
    * WRF (https://github.com/NCAR/WRFV3)
      * I/O: NetCDF4/HDF5/PnetCDF
@@ -167,12 +167,12 @@
      * Python
    * M-TIP
 
-### 3 National Security applications
+### Three National Security applications
  * 2.2.5.01 ADNN01-ASC [ATDM-LANL](https://confluence.exascaleproject.org/display/1ALA)
  * 2.2.5.02 ADNN02-ASC [ATDM-LLNL](https://confluence.exascaleproject.org/display/1AAALA)
  * 2.2.5.03 ADNN03-ASC [ATDM-SNL](https://confluence.exascaleproject.org/display/1AAASA)
 
-### 6 Co-design projects aimed at developing crosscutting capabilities
+### Six Co-design projects aimed at developing crosscutting capabilities
  * 2.2.6.01 ADCD504-[Proxy Applications](https://confluence.exascaleproject.org/display/1PA)
  * 2.2.6.02 ADCD502-[Applications Assessment](https://confluence.exascaleproject.org/display/1AA)
 
