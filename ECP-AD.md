@@ -32,10 +32,13 @@
    * QMP (https://github.com/usqcd-software/qmp)
    * QUDA (https://github.com/lattice/quda)
 
+   * Currently ECP collaborating with ExaHDF5
+
  * 2.2.1.02 ADSE11-[NWChemEx](https://confluence.exascaleproject.org/display/ADSE11) (Chemistry, Materials, PNNL)
    * https://github.com/NWChemEx-Project
    * http://www.nwchem-sw.org/index.php/Main_Page
    * I/O: POSIX, text format
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.1.03 ADSE16-[GAMESS](https://confluence.exascaleproject.org/display/ADSE16) (Chemistry, Materials)
    * Development: https://github.com/gms-bbg/gamess
@@ -55,6 +58,7 @@
  * 2.2.1.06 ADSE09-[QMCPACK](https://confluence.exascaleproject.org/display/ADSE09) (Quantum Mechanics)
    * https://github.com/QMCPACK/qmcpack
    * I/O: HDF5
+   * Currently ECP collaborating with ExaHDF5
 
 ### Six Energy applications
  * 2.2.2.01 ADSE07-[ExaWind](https://confluence.exascaleproject.org/display/ADSE07) (Fluid Dynamics)
@@ -91,6 +95,7 @@
      * I/O: HDF5
    * PICSAR (https://bitbucket.org/berkeleylab/picsar)
      * I/O: MPI-IO, text pixr format
+   * Currently ECP collaborating with ExaHDF5
 
 ### Five Earth and Space Sciences applications
  * 2.2.3.01 ADSE18-[ExaStar](https://confluence.exascaleproject.org/display/ADSE18) (Stellar Explosions, LBNL)
@@ -106,27 +111,31 @@
      * HDF5
      * BoxLib (homegrown format)
 
- * 2.2.3.02 ADSE01-[EaxSky](https://confluence.exascaleproject.org/display/ADSE01) (Cosmology, Habib, ANL)
+ * 2.2.3.02 ADSE01-[ExaSky](https://confluence.exascaleproject.org/display/ADSE01) (Cosmology, Habib, ANL)
    * GenericIO Releases: http://trac.alcf.anl.gov/projects/genericio
      * I/O: MPI-IO and POSIX I/O
    * Nyx repository: https://github.com/AMReX-Astro/Nyx
      * C++ I/O, converter utility uses HDF5
    * HACC CORAL benchmark: https://asc.llnl.gov/CORAL-benchmarks/
      * I/O: MPI-IO
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.3.03 ADSE19-[EQSIM](https://confluence.exascaleproject.org/display/ADSE19) (Earthquake Simulation, LBNL)
    * https://github.com/geodynamics/sw4
    * I/O: C++, POSIX I/O
    * I/O: HDF5 under development [PR #41](https://github.com/geodynamics/sw4/pull/41)
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.3.04 ADSE05-[Subsurface](https://confluence.exascaleproject.org/display/ADSE05) (Coupled Flow, Transport, Reactions and Mechanics, LBNL)
    * CHOMBO-Crunch (https://anag-repo.lbl.gov)
    * GEO ?
    * I/O: HDF5
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.3.05 ADSE15-[E3SM-MMF](https://confluence.exascaleproject.org/display/ADSE15) (Climate)
    * https://github.com/E3SM-Project/E3SM
    * I/O: PIO, NetCDF4, PnetCDF, HDF5, ADIOS
+   * Currently ECP collaborating with ExaHDF5
 
 ### Five Data Analytics and Optimization applications
  * 2.2.4.01 ADSE17-[Urban](https://confluence.exascaleproject.org/display/ADSE17) (Metropolitan Energy and Economic Dynamics)
@@ -136,6 +145,7 @@
      * I/O: POSIX
    * Other applications:
      * EnergyPlus, TUMS, MOVES, chiSIM
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.4.02 ADSE22-[ExaSGD](https://confluence.exascaleproject.org/display/ADSE22) (Stochastic Grid Dynamics)
    * GridPACK (https://github.com/GridOPTICS/GridPACK)
@@ -149,6 +159,7 @@
  * 2.2.4.03 ADOA01-[CANDLE](https://confluence.exascaleproject.org/display/ADOA01) (Machine Learning)
    * https://github.com/ECP-Candle/
    * I/O: python (HDF5 python)
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.4.04 ADSE20-[ExaBiome](https://confluence.exascaleproject.org/display/ADSE20) (Microorganisms)
    * MetaHipMer (https://bitbucket.org/berkeleylab/hipmeraculous)
@@ -166,6 +177,7 @@
    * LUNUS (https://github.com/mewall/lunus)
      * Python
    * M-TIP
+   * Currently ECP collaborating with ExaHDF5
 
 ### Three National Security applications
  * 2.2.5.01 ADNN01-ASC [ATDM-LANL](https://confluence.exascaleproject.org/display/1ALA)
@@ -189,6 +201,7 @@
  * 2.2.6.05 ADCD03-[AMREX](https://confluence.exascaleproject.org/display/AD) (Block-structured AMR)
    * https://github.com/AMReX-Codes/amrex
    * I/O: C++, text, POSIX
+   * Currently ECP collaborating with ExaHDF5
 
  * 2.2.6.06 ADCD04-[CEED](https://confluence.exascaleproject.org/display/CEED) (Unstructured Mesh)
    * https://github.com/CEED
