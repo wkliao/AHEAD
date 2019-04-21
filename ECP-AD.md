@@ -52,7 +52,7 @@
 
  * 2.2.1.05 ADSE10-[ExaAM](https://confluence.exascaleproject.org/display/ADSE10) (Manufacture Simulation)
    * 13 components, each in different repo
-   * Component AMPE, Diablo, and Tusas: NetCDF/HDF5
+   * Component [AMPE](https://github.com/LLNL/AMPE), Diablo, and Tusas: serial NetCDF-C++/HDF5
    * Component ExaCA, Truchas-PBF: AMReX
 
  * 2.2.1.06 ADSE09-[QMCPACK](https://confluence.exascaleproject.org/display/ADSE09) (Quantum Mechanics)
@@ -64,8 +64,8 @@
  * 2.2.2.01 ADSE07-[ExaWind](https://confluence.exascaleproject.org/display/ADSE07) (Fluid Dynamics)
    * https://github.com/Exawind/nalu-wind
    * I/O
-     * HDF5
-     * NetCDF4 (call PnetCDF)
+     * serial HDF5
+     * serial NetCDF4
 
  * 2.2.2.02 ADSE14-[Combustion-Pele](https://confluence.exascaleproject.org/display/ADSE14) (NREL)
    * git@code.ornl.gov:Pele/PeleC.git
@@ -192,7 +192,7 @@
 		https://CODARcode/cheetah (Python)
 		https://github.com/CODARcode/PerformanceVisualization (Database)
 		https://github.com/CODARcode/savanna (ADIOS)
-		https://github.com/CODARcode/Z-checker (HDF5/NetCDF)
+		https://github.com/CODARcode/Z-checker (HDF5/NetCDF serial read only)
 		https://sdrbench.github.io
 
  * 2.2.6.04 ADCD02-[COPA](https://confluence.exascaleproject.org/display/CoPA) (Particle Applications)
